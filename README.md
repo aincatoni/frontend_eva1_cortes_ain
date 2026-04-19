@@ -22,6 +22,7 @@ Puedes revisar el sitio web desplegado en github pages: https://aincatoni.github
 - Puntos de quiebre estratégicos: mobile, tablet pequeño, tablet, desktop
 - Fluido y adaptable a cualquier tamaño de pantalla
 
+
 ### 🌓 Tema Día/Noche
 - Toggle integrado en la navegación
 - Persiste la preferencia del usuario en localStorage
@@ -47,6 +48,10 @@ Puedes revisar el sitio web desplegado en github pages: https://aincatoni.github
 - Validaciones de formulario
 - Manejo de tema
 - Estado centralizado de la aplicación
+
+
+### 🖌️ Maquetas
+https://www.figma.com/proto/0rfrdCSEpgFu94JrMpBwrs/Congenio-CL?node-id=0-1&t=83WYYEzbCNU86R3S-1
 
 ### 📸 Captura del sitio
 ![alt text](screen.webp)
