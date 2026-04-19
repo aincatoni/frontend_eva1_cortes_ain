@@ -47,3 +47,6 @@ Puedes revisar el sitio web desplegado en github pages: "agregaré el link cuand
 - Validaciones de formulario
 - Manejo de tema
 - Estado centralizado de la aplicación
+
+### 📸 Captura del sitio
+![alt text](screen.webp)
