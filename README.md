@@ -12,7 +12,7 @@ ConIngenio es una página web moderna y responsiva para una empresa de consultor
 
 
 ## Datos del sitio web
-Puedes revisar el sitio web desplegado en github pages: "agregaré el link cuando lo despliegue"
+Puedes revisar el sitio web desplegado en github pages: https://aincatoni.github.io/frontend_eva1_cortes_ain
 
 
 ## Características Principales
