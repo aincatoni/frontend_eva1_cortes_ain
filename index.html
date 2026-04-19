@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConIngenio | Consultoría y Desarrollo de Software</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined">
+</head>
+<body>
+    <!-- Navegación Principal -->
+    <nav class="navbar" aria-label="Navegación principal">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="#home" class="logo" style="text-decoration: none;">ConIngenio</a>
+            </div>
+            
+            <div class="navbar-right">
+                <button class="menu-toggle" aria-label="Alternar menú" aria-expanded="false" id="menu-toggle">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+                
+                <button class="theme-toggle" aria-label="Alternar tema" title="Cambiar tema" id="theme-toggle">
+                    <span class="material-symbols-outlined">light_mode</span>
+                </button>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#servicios" class="nav-link">Nuestros Servicios</a></li>
+                <li><a href="#contacto" class="nav-link">Contáctenos</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Sección Hero -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span>Soluciones digitales de vanguardia</span>
+                    </div>
+                    <h1 id="hero-title">ConIngenio: acelera tu negocio mediante software</h1>
+                    <p class="hero-subtitle">Transformamos visiones complejas en soluciones digitales estructuradas. Consultoría estratégica y desarrollo de alta ingeniería para empresas que buscan liderar la economía digital.</p>
+                    <div class="hero-actions">
+                        <a href="#servicios" class="btn btn-primary">Ver servicios</a>
+                        <a href="#contacto" class="btn btn-secondary">Contáctenos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Nosotros (Misión) -->
+        <section class="about-section" id="nosotros" aria-labelledby="about-title">
+            <div class="container">
+                <div class="about-header">
+                    <span class="section-label">Nuestra Misión</span>
+                    <h2 id="about-title">Soluciones digitales integrales que trascienden el código para redefinir industrias</h2>
+                </div>
+                
+                <div class="values-grid">
+                    <article class="value-card">
+                        <h3>Ingeniería de Precisión</h3>
+                        <p>No solo construimos software; diseñamos estructuras escalables que soportan el crecimiento masivo de datos y usuarios.</p>
+                    </article>
+                    <article class="value-card">
+                        <h3>Visión de Negocio</h3>
+                        <p>Alineamos cada línea de código con los KPIs de su organización para asegurar un retorno de inversión tangible.</p>
+                    </article>
+                    <article class="value-card">
+                        <h3>Agilidad Real</h3>
+                        <p>Implementamos metodologías que permiten entregas continuas sin sacrificar la robustez arquitectónica del sistema.</p>
+                    </article>
+                </div>
+
+                <div class="vision-content">
+                    <h3>Visión</h3>
+                    <p>Ser la consultora líder en transformación digital para empresas que buscan innovar y optimizar sus operaciones a través de soluciones tecnológicas integradas.</p>
+                    
+                    <h3>Valores</h3>
+                    <ul>
+                        <li><strong>Excelencia:</strong> Compromiso con la calidad en cada proyecto</li>
+                        <li><strong>Innovación:</strong> Adopción de nuevas tecnologías y metodologías</li>
+                        <li><strong>Transparencia:</strong> Comunicación clara con nuestros clientes</li>
+                        <li><strong>Sostenibilidad:</strong> Desarrollo responsable y consciente</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Servicios -->
+        <section class="services-section" id="servicios" aria-labelledby="services-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Portafolio</span>
+                    <h2 id="services-title">Servicios destacados</h2>
+                    <p>Nuestra experiencia abarca todo el ciclo de vida del producto digital, desde la concepción hasta la evolución constante.</p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card service-card-large">
+                        <div class="service-icon">
+                            <span class="material-symbols-outlined">insights</span>
+                        </div>
+                        <h3>Consultoría Digital</h3>
+                        <p>Estrategias de transformación profunda que modernizan procesos heredados y habilitan nuevas capacidades de mercado.</p>
+                        <a href="#" class="service-link">Leer más →</a>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <span class="material-symbols-outlined">devices</span>
+                        </div>
+                        <h3>Soluciones Multiexperiencia</h3>
+                        <p>Interfaces diseñadas para cautivar en cualquier dispositivo, uniendo web, móvil e IoT en una experiencia coherente.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <span class="material-symbols-outlined">hub</span>
+                        </div>
+                        <h3>Evolución de Ecosistemas</h3>
+                        <p>Modernizamos su stack tecnológico sin interrumpir la operación, asegurando escalabilidad y seguridad total.</p>
+                    </article>
+
+                    <article class="service-card service-card-large">
+                        <div class="service-icon">
+                            <span class="material-symbols-outlined">bolt</span>
+                        </div>
+                        <h3>Soluciones Low-Code</h3>
+                        <p>Aceleramos el tiempo de llegada al mercado mediante plataformas de desarrollo rápido sin comprometer la calidad corporativa.</p>
+                        <a href="#" class="service-link">Explorar →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección CTA -->
+        <section class="cta-section" aria-labelledby="cta-title">
+            <div class="container">
+                <h2 id="cta-title">Impulsemos tu próxima solución digital</h2>
+                <p>Estamos listos para analizar tu desafío técnico y proponer una hoja de ruta hacia el éxito digital.</p>
+                <a href="#contacto" class="btn btn-primary btn-large">Contáctenos</a>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section class="contact-section" id="contacto" aria-labelledby="contact-title">
+            <div class="container">
+                <div style="margin-top: 60px; padding-bottom: 2rem;">
+                    <h1 id="contact-title" style="margin-bottom: 0.5rem;">Contáctenos</h1>
+                    <p style="font-size: 1.1rem; color: var(--color-text-secondary);">Estamos listos para escuchar tu consulta y ayudarte a llevar tu proyecto digital al siguiente nivel.</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2 style="margin-top: 0;">Información de Contacto</h2>
+                        
+                        <div class="contact-item">
+                            <h3>Dirección</h3>
+                            <p>Av. Providencia 1234, Oficina 601<br>Providencia, Santiago<br>Chile</p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>Teléfono</h3>
+                            <p><a href="tel:+56212345678">+56 2 1234 5678</a></p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@coningenio.cl">info@coningenio.cl</a></p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>Sitio Web</h3>
+                            <p><a href="https://www.coningenio.cl" target="_blank">www.coningenio.cl</a></p>
+                        </div>
+
+                        <div class="contact-item">
+                            <h3>Horario de Atención</h3>
+                            <p>Lunes a Viernes: 09:00 - 18:00<br>Sábados: 10:00 - 14:00</p>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <h2 style="margin-top: 0;">Envíanos tu consulta</h2>
+                        
+                        <div class="form-group">
+                            <label for="fullname">Nombre completo *</label>
+                            <input 
+                                type="text" 
+                                id="fullname" 
+                                name="fullname" 
+                                placeholder="Tu nombre completo"
+                                required
+                                aria-required="true"
+                            >
+                            <span class="error-message" id="fullname-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Selecciona un servicio *</label>
+                            <select id="service" name="service" required aria-required="true">
+                                <option value="">-- Selecciona un servicio --</option>
+                                <option value="Consultoría Digital">Consultoría Digital</option>
+                                <option value="Soluciones Multiexperiencia">Soluciones Multiexperiencia</option>
+                                <option value="Evolución de Ecosistemas">Evolución de Ecosistemas</option>
+                                <option value="Soluciones Low-Code">Soluciones Low-Code</option>
+                            </select>
+                            <span class="error-message" id="service-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                placeholder="Tu mensaje aquí..."
+                                rows="5"
+                                required
+                                aria-required="true"
+                            ></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" aria-label="Pie de página">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-brand">ConIngenio</h3>
+                    <p>Consultoría y desarrollo de software para acelerar tu negocio digital mediante soluciones integrales innovadoras.</p>
+                    <div class="footer-links">
+                        <a href="#" aria-label="Redes sociales">Seguirnos</a>
+                    </div>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Términos de Servicio</a></li>
+                        <li><a href="#">Cookies</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-group">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#">Oficinas</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; Hecho con ❤️ por Ain Cortés Catoni</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
